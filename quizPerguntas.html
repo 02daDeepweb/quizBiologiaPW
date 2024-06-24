@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="quizPerg.css">
+    <title>Quiz de Biologia</title>
+</head>
+<body>
+    <div class="quiz-container">
+        <h1>Quiz de Biologia</h1>
+        <div><h2 id="pergunta1">Quem é considerado o pai da biologia?</h2></div>
+        <div>
+            <input type="radio" name="resposta1" value="A"> Charles Darwin<br>
+            <input type="radio" name="resposta1" value="B"> Aristóteles<br>
+            <input type="radio" name="resposta1" value="C"> Gregor Mendel
+        </div>
+        
+        <div><h2 id="pergunta2">Qual é um exemplo de relação harmônica?</h2></div>
+        <div>
+            <input type="radio" name="resposta2" value="A"> Predação<br>
+            <input type="radio" name="resposta2" value="B"> Mutualismo<br>
+            <input type="radio" name="resposta2" value="C"> Parasitismo
+        </div>
+        
+        <div><h2 id="pergunta3">Qual nível trófico possui os herbívoros?</h2></div>
+        <div>
+            <input type="radio" name="resposta3" value="A"> Produtores<br>
+            <input type="radio" name="resposta3" value="B"> Consumidores<br>
+            <input type="radio" name="resposta3" value="C"> Decompositores
+        </div>
+        
+        <div><h2 id="pergunta4">O que significa biodiversidade?</h2></div>
+        <div>
+            <input type="radio" name="resposta4" value="A"> "Diversidade de organismos vivos"<br>
+            <input type="radio" name="resposta4" value="B"> "Quantidades de espécies de plantas"<br>
+            <input type="radio" name="resposta4" value="C"> "Variedade de ambientes aquáticos"
+        </div>
+        
+        <div><h2 id="pergunta5">Qual organela citoplasmática é responsável pela respiração celular?</h2></div>
+        <div>
+            <input type="radio" name="resposta5" value="A"> Cloroplasto<br>
+            <input type="radio" name="resposta5" value="B"> Ribossomo<br>
+            <input type="radio" name="resposta5" value="C"> Mitocôndria
+        </div>
+        
+        <div><h2 id="pergunta6">Qual é a principal função do sistema nervoso?</h2></div>
+        <div>
+            <input type="radio" name="resposta6" value="A"> Controle dos movimentos voluntários<br>
+            <input type="radio" name="resposta6" value="B"> Digestão dos alimentos<br>
+            <input type="radio" name="resposta6" value="C"> Produção de hormônios
+        </div>
+        
+        <button id="enviar">Enviar Respostas</button>
+        <br>
+        <div id="resultado"></div>
+        <br>
+        <a href="quizmenu.html"><button id="voltar" class="link">Voltar ao início</button></a>
+    </div>
+    
+    <script src="quiz.js"></script>
+</body>
+</html>
